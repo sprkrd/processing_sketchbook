@@ -1,8 +1,11 @@
+document.title = "Drawing circles";
+
 function setup() {
     createCanvas(400, 400);
 }
 
 function draw() {
+    background(0);
     if (mouseIsPressed) {
         fill(0);
     }
